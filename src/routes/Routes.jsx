@@ -1,11 +1,18 @@
 import React from 'react'
+import { Routes, Route } from "react-router";
+import Homepage from '../pages/Homepage/Homepage';
+import AboutUsPage from '../pages/Aboutuspage/AboutUsPage';
 
-const Routes = () => {
+const Router = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <Routes>
+        <Route path='/' element={<Homepage/>}/>
+        <Route path='/aboutUs' element={<AboutUsPage/>}/>
+
+      </Routes>
+    </>
   )
 }
 
-export default Routes
+export default Router;

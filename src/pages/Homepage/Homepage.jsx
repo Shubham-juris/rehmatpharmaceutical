@@ -1,10 +1,17 @@
 import React from 'react'
+import HomeHero from '../../components/HomeComponents/HomeHero'
+import Labortry from '../../components/HomeComponents/Labortry'
+import TrustedSec from '../../components/HomeComponents/TrustedSec'
+import NewsEvents from '../../components/HomeComponents/NewsEvents'
 
 const Homepage = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <HomeHero/>
+      <Labortry/>
+      <TrustedSec/>
+      <NewsEvents/>
+    </>
   )
 }
 
