@@ -64,7 +64,7 @@ const ContactPage = () => {
               Terms of Service
             </a>
           </label>
-          <button className="w-full bg-orange-500 p-3 rounded-lg mt-2 hover:bg-orange-600 transition duration-300">
+          <button className="w-full bg-orange-500 p-3 rounded-lg mt-2 hover:bg-sky-600 transition duration-300">
             Submit your request
           </button>
         </form>
