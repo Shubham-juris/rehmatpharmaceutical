@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo/logo.jpg"
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <img src="/lab-icon.png" alt="" className="w-8 h-8" />
+            <img src={logo} alt="" className="w-8 h-8" />
             <span className="text-2xl font-bold">Rehmat Pharma</span>
           </div>
           <p className="text-gray-300">

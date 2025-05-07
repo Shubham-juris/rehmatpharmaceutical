@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="text-gray-700 hover:text-purple-700 font-medium">Home</Link>
           <Link to="/aboutUs" className="text-gray-700 hover:text-purple-700 font-medium">About Us</Link>
-          <Link to="/services" className="text-gray-700 hover:text-purple-700 font-medium">Our Services</Link>
+          <Link to="/service" className="text-gray-700 hover:text-purple-700 font-medium">Our Services</Link>
           <Link to="/contact" className="text-gray-700 hover:text-purple-700 font-medium">Contact Us</Link>
         </div>
 
