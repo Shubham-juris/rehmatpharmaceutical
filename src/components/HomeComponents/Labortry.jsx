@@ -1,12 +1,12 @@
 import React from 'react'
-import img from "../../assets/home/herobg.jpg"
+import img from "../../assets/home/lab.jpeg"
+import { Link } from 'react-router-dom'
 
 const Labortry = () => {
   return (
     <>
      <section className="bg-white py-10 md:py-20 mt-20">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-10">
-        {/* Left Image */}
         <div className="w-full md:w-1/2">
           <img
             src={img}
@@ -15,7 +15,6 @@ const Labortry = () => {
           />
         </div>
 
-        {/* Right Content */}
         <div className="w-full md:w-1/2">
           <h1 className="text-3xl md:text-5xl font-bold text-gray-800 mb-4">
             Welcome to Labora <br /> Laboratory WP Theme
@@ -26,17 +25,16 @@ const Labortry = () => {
           <p className="text-gray-600 mb-6">
             Curabitur metus lorem, mollis sit amet ligula ac, efficitur sagittis justo. Morbi at ligula dictum sem tristique elementum. Fusce vestibulum malesuada tortor. In hac habitasse platea dictumst. Sed nisi velit, tincidunt sit amet tempus eu, rhoncus eget nisi.
           </p>
-          <a
-            href="#"
+          <Link
+            to="/AboutUs"
             className="text-sm font-semibold text-pink-600 hover:underline"
           >
             MORE ABOUT US &rarr;
-          </a>
+          </Link>
         </div>
       </div>
 
-      {/* Features Row */}
-      <div className="max-w-7xl mx-auto mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4">
+      <div className="max-w-7xl mx-auto mt-30 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 px-4 ">
         <div className="flex items-start space-x-3">
           <span className="text-pink-600 text-2xl">🏢</span>
           <div>

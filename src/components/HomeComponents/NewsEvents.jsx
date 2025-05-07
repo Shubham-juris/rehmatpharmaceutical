@@ -27,7 +27,7 @@ const NewsEvents = () => {
     
   return (
     <>
-      <section className="py-16 px-4 md:px-10 bg-white">
+      <section className="py-16 px-4 md:px-10 bg-white mt-15">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-2xl md:text-3xl font-bold mb-10">NEWS & EVENTS</h2>
 

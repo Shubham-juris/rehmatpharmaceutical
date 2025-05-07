@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../assets/home/herobg.jpg"
+import img from "../../assets/home/Labortry.webp"
 
 const TrustedSec = () => {
   return (

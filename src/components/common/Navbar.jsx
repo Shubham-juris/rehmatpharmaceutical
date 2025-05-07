@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo/logo.jpg"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,8 +9,8 @@ const Navbar = () => {
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <img src="/lab-icon.png" alt="Labora Logo" className="w-8 h-8" />
-          <span className="text-2xl font-bold text-purple-700">RehmatPharma</span>
+          <img src={logo} alt=" " className="w-10 h-10" />
+          <span className=" font-bold text-purple-700">RehmatPharma</span>
         </div>
 
         <div className="hidden md:flex space-x-6">
