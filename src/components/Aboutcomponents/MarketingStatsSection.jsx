@@ -29,7 +29,6 @@ const MarketingStatsSection = () => {
   return (
     <section className=" max-w-7xl mx-auto py-16 px-6 lg:px-20">
       <div className="grid lg:grid-cols-2 gap-10 items-center">
-        {/* Text Content */}
         <div>
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
             Start Improve Your Marketing Today
@@ -67,7 +66,6 @@ const MarketingStatsSection = () => {
           </div>
         </div>
 
-        {/* Chart */}
         <div className="w-full h-80">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={data}>

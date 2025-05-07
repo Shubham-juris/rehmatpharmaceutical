@@ -3,9 +3,7 @@ import { FaVial, FaUserAlt, FaGem, FaGlobe, FaPlay } from "react-icons/fa";
 const FeaturesSection = () => {
   return (
     <div className="flex flex-col max-w-7xl mx-auto lg:flex-row items-center justify-between px-6 lg:px-20 py-16 bg-white">
-      {/* Left Column */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-2xl">
-        {/* Feature 1 */}
         <div className="flex items-start space-x-4">
           <FaVial className="text-purple-800 text-4xl" />
           <div>
@@ -19,7 +17,6 @@ const FeaturesSection = () => {
           </div>
         </div>
 
-        {/* Feature 2 */}
         <div className="flex items-start space-x-4">
           <FaUserAlt className="text-purple-800 text-4xl" />
           <div>
@@ -31,7 +28,6 @@ const FeaturesSection = () => {
           </div>
         </div>
 
-        {/* Feature 3 */}
         <div className="flex items-start space-x-4">
           <FaGem className="text-purple-800 text-4xl" />
           <div>
@@ -43,7 +39,6 @@ const FeaturesSection = () => {
           </div>
         </div>
 
-        {/* Feature 4 */}
         <div className="flex items-start space-x-4">
           <FaGlobe className="text-purple-800 text-4xl" />
           <div>
@@ -56,7 +51,6 @@ const FeaturesSection = () => {
         </div>
       </div>
 
-      {/* Right Video Section */}
       <div className="mt-12 lg:mt-0 lg:ml-12">
         <div className="bg-purple-900 text-white w-[450px] h-[300px] flex flex-col items-center justify-center text-center p-6 rounded-lg">
           <p className="mb-6 text-sm tracking-widest">
