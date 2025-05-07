@@ -20,7 +20,7 @@ const TrustedSec = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
             We Are Trusted By World’s Leading Companies
           </h2>
-          <div className="h-1 w-16 bg-pink-600 mb-6"></div>
+          <div className="h-1 w-16 bg-sky-600 mb-6"></div>
 
           <div className="flex flex-col md:flex-row md:space-x-8 space-y-6 md:space-y-0">
             <div className="md:w-1/2">

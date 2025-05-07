@@ -41,7 +41,7 @@ const TeamSection = () => {
           who care a lot more about getting it done.
         </span>
       </h2>
-      <div className="w-16 h-[2px] bg-fuchsia-600 mx-auto my-6"></div>
+      <div className="w-16 h-[2px] bg-sky-600 mx-auto my-6"></div>
 
       <div className="grid gap-10 mt-10 md:grid-cols-2 lg:grid-cols-4 text-left">
         {teamMembers.map((member, index) => (
@@ -51,14 +51,14 @@ const TeamSection = () => {
               alt={member.name}
               className="w-full h-60 object-cover mb-4"
             />
-            <h3 className="text-fuchsia-700 font-bold text-lg">
+            <h3 className="text-sky-700 font-bold text-lg">
               {member.name}
             </h3>
             <p className="text-gray-500 text-sm mb-2">{member.title}</p>
             <p className="text-gray-600 text-sm mb-2">{member.desc}</p>
             <a
               href="#"
-              className="text-sm font-semibold text-fuchsia-700 hover:underline"
+              className="text-sm font-semibold text-sky-700 hover:underline"
             >
               View Profile
             </a>

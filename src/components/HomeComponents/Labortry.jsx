@@ -27,7 +27,7 @@ const Labortry = () => {
           </p>
           <Link
             to="/AboutUs"
-            className="text-sm font-semibold text-pink-600 hover:underline"
+            className="text-sm font-semibold text-sky-600 hover:underline"
           >
             MORE ABOUT US &rarr;
           </Link>

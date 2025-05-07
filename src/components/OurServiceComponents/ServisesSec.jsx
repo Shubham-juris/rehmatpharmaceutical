@@ -23,7 +23,7 @@ const ServisesSec = () => {
               </p>
               <a
                 href="#"
-                className="text-purple-700 font-semibold hover:underline text-sm"
+                className="text-sky-600 font-semibold hover:underline text-sm"
               >
                 Learn more
               </a>

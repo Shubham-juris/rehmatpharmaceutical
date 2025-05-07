@@ -14,7 +14,7 @@ const HeroService = () => {
           torquent per conubia nostra per inceptos himenaeos. <br />
           Quisque eget velit a tortor faucibus mattis.
         </p>
-        <div className="h-1 w-12 mx-auto bg-purple-700 mb-8"></div>
+        <div className="h-1 w-12 mx-auto bg-sky-700 mb-8"></div>
         <div className="w-full">
           <img
             src={img}

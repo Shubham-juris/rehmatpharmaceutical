@@ -26,7 +26,7 @@ const AwardSection = () => {
             <h4 className="text-sm font-semibold uppercase mt-1 mb-2">
               Best Laboratory of the Year
             </h4>
-            <div className="w-8 h-[2px] bg-fuchsia-600 mx-auto md:mx-0 mb-4"></div>
+            <div className="w-8 h-[2px] bg-sky-600 mx-auto md:mx-0 mb-4"></div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
               pellentesque mauris id lectus volutpat eleifend.

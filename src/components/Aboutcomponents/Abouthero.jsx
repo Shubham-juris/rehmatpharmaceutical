@@ -3,14 +3,14 @@ import AboutImage1 from "../../assets/About/AboutImage1 (2).jpg";
 const Abouthero = () => {
   return (
     <section className="bg-white py-16 px-6 md:px-20 ">
-      <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-5xl md:text-4xl font-semibold text-gray-700 mt-20">
+      <div className="max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-700 mt-20">
           We use design to help businesses
         </h2>
-        <h2 className="text-5xl md:text-3xl font-medium text-gray-600 mt-3">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-gray-600 mt-3">
           Launch products, brands and ideas.
         </h2>
-        <div className="w-12 h-1 bg-pink-600 mx-auto mt-4 mb-10"></div>
+        <div className="w-12 h-1 bg-sky-600 mx-auto mt-4 mb-10"></div>
       </div>
 
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start gap-10">
@@ -40,7 +40,7 @@ const Abouthero = () => {
             augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
 
-          <blockquote className="text-lg md:text-xl font-semibold text-gray-900 mt-4">
+          <blockquote className="text-lg md:text-xl font-semibold text-sky-600 mt-4">
             “We produce great website designs that audiences understand and
             interact with. Creating code that is clean, compliant and
             accessible. Compatible with all the major browsers and responsive in

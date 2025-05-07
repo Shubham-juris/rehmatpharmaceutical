@@ -48,7 +48,7 @@ const MarketingStatsSection = () => {
             <div className="flex items-center gap-4">
               <div className="text-4xl text-gray-400">📈</div>
               <div>
-                <p className="text-xl font-bold text-fuchsia-700">400%</p>
+                <p className="text-xl font-bold text-sky-700">400%</p>
                 <p className="text-sm text-gray-500 font-medium uppercase">
                   Production Stats
                 </p>
@@ -57,7 +57,7 @@ const MarketingStatsSection = () => {
             <div className="flex items-center gap-4">
               <div className="text-4xl text-gray-400">📊</div>
               <div>
-                <p className="text-xl font-bold text-fuchsia-700">160%</p>
+                <p className="text-xl font-bold text-sky-700">160%</p>
                 <p className="text-sm text-gray-500 font-medium uppercase">
                   Traffic Stats
                 </p>
