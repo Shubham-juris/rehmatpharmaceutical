@@ -5,9 +5,9 @@ import logo from "../../assets/logo/logo.jpg"
 const Footer = () => {
   return (
     <footer className="bg-[#1f1f2e] text-white mt-12">
-      <div className="bg-[#9c0d7e] py-6 text-center">
+      <div className="bg-sky-600 py-6 text-center">
         <h2 className="text-2xl md:text-3xl font-semibold">Labora - Business, Laboratory & Pharmaceutical asad</h2>
-        <button className="mt-4 border border-white text-white px-6 py-2 hover:bg-white hover:text-[#9c0d7e] transition duration-300">
+        <button className="mt-4 border border-white text-white px-6 py-2 hover:bg-white hover:text-[#7eb9e9] transition duration-300">
           PURCHASE NOW
         </button>
       </div>
@@ -16,10 +16,10 @@ const Footer = () => {
         <div>
           <div className="flex items-center space-x-2 mb-4">
             <img src={logo} alt="" className="w-8 h-8" />
-            <span className="text-2xl font-bold">Rehmat Pharma</span>
+            <span className="text-2xl  font-bold">Rehmat Pharma</span>
           </div>
           <p className="text-gray-300">
-            Labora is a creative & powerful medical and laboratory WordPress theme that suits all your business needs.
+            pharma is a creative & powerful medical and laboratory WordPress theme that suits all your business needs.
           </p>
         </div>
 
@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <h4 className="text-lg font-semibold mb-4">Labora Recent Posts</h4>
+          <h4 className="text-lg font-semibold mb-4">Rehmat Pharma Posts</h4>
           <div className="space-y-4 text-gray-400 text-sm">
             <div>
               <p className="font-medium text-white">Exploring Anatomy & Physiology in the Laboratory</p>
@@ -60,8 +60,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="bg-[#151524] text-center py-4 text-gray-500 text-sm">
-        © Copyright 2016 Labora. All Right Reserved. Designed by <span className="text-white font-medium">AivahThemes</span>
+      <div className="bg-[#151524] text-center py-4 text-sky-500 text-sm">
+        © Copyright 2025 Pharma. All Right Reserved. Designed by <span className="text-white font-medium">Rehmat Pharma</span>
       </div>
     </footer>
   );
