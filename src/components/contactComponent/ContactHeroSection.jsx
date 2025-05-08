@@ -25,17 +25,11 @@ const ContactPage = () => {
         <div className="flex items-center mb-4">
           <span className="text-orange-500 text-2xl mr-2">📍</span>
           <div>
-            <p className="font-semibold">Email</p>
-            <p>RehmatPharma@gmail.com</p>
+            <p className="font-semibold">Address:-</p>
+            <p>New Sunny Enclave</p>
           </div>
         </div>
-        <div className="flex items-center">
-          <span className="text-orange-500 text-2xl mr-2">📞</span>
-          <div>
-            <p className="font-semibold">Phone (Landline)</p>
-            <p>+912 3 567 8987</p>
-          </div>
-        </div>
+      
       </div>
 
       {/* Right Section */}

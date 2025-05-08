@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#1f1f2e] text-white mt-12">
       <div className="bg-sky-600 py-6 text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold">Labora - Business, Laboratory & Pharmaceutical asad</h2>
+        <h2 className="text-2xl md:text-3xl font-semibold">Rehmat pharma - Business, Laboratory & Pharmaceutical asad</h2>
         <button className="mt-4 border border-white text-white px-6 py-2 hover:bg-white hover:text-[#7eb9e9] transition duration-300">
           PURCHASE NOW
         </button>
