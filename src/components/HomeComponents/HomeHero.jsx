@@ -11,10 +11,10 @@ const HomeHero = () => {
 
       <div className="relative z-20 text-white text-center px-4 py-8 max-w-2xl">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
-          Evaluation of the Current Safety
+          Trusted Pharmaceutical Solutions
         </h1>
         <p className="text-lg">
-          Labora aims to connect professionals with companies and organizations in the sector of laboratory automation.
+          RehmatPharma is committed to delivering safe, effective, and affordable healthcare products — driving innovation in pharmaceutical research and manufacturing.
         </p>
       </div>
     </section>

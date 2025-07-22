@@ -1,14 +1,15 @@
 import React from "react";
 import AboutImage1 from "../../assets/About/AboutImage1 (2).jpg";
+
 const Abouthero = () => {
   return (
-    <section className="bg-white py-16 px-6 md:px-20 ">
+    <section className="bg-white py-16 px-6 md:px-20">
       <div className="max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-gray-700 mt-20">
-          We use design to help businesses
+          Empowering Healthcare Through Innovation
         </h2>
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-gray-600 mt-3">
-          Launch products, brands and ideas.
+        <h2 className="text-2xl sm:text-3xl  md:text-4xl font-medium text-gray-600 mt-15">
+          Delivering Trusted Pharmaceutical & Laboratory Solutions
         </h2>
         <div className="w-12 h-1 bg-sky-600 mx-auto mt-4 mb-10"></div>
       </div>
@@ -24,35 +25,25 @@ const Abouthero = () => {
 
         <div className="w-full md:w-2/3 space-y-5 text-gray-700 text-sm md:text-base">
           <p>
-            As a digital partner we provide brands with tailored solutions that
-            drive human behavior and engagement. We understand that every
-            consumption point with a brand is an opportunity to connect and
-            influence. At Marvis we exist to inspire those millions of
-            purposeful customer interactions through branding and online
-            experiences.
+            At <strong>Rehmat Pharma</strong>, we are committed to enhancing lives through
+            advanced medical and pharmaceutical innovations. With years of experience
+            in laboratory testing, diagnostics, and health research, we aim to set new
+            standards in quality and trust.
           </p>
 
           <p>
-            <strong>Create Your Custom E-Signature In Few Simple Steps</strong>{" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-            dictum consectetur turpis, et fermentum ipsum semper elementum. Sed
-            ac nulla fringilla, aliquam orci vitae, ultrices nunc. In sed risus
-            augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            <strong>Why Choose Rehmat Pharma?</strong> We deliver reliable and accurate
+            diagnostic services, use cutting-edge technologies, and uphold the highest
+            safety standards. Our dedicated team ensures every product and service we
+            offer contributes to better health outcomes for individuals and communities.
           </p>
 
           <blockquote className="text-lg md:text-xl font-semibold text-sky-600 mt-4">
-            “We produce great website designs that audiences understand and
-            interact with. Creating code that is clean, compliant and
-            accessible. Compatible with all the major browsers and responsive in
-            design”
+            “Your health is our priority. We bring science, care, and compassion together
+            to build a healthier tomorrow.”
           </blockquote>
 
-          <div className="mt-6">
-            <p className="text-2xl italic font-handwriting">aaliya Smith</p>
-            <p className="uppercase text-xs mt-1 tracking-wide text-gray-500">
-              Founder of Labora
-            </p>
-          </div>
+        
         </div>
       </div>
     </section>

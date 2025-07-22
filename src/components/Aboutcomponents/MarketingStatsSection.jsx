@@ -1,14 +1,12 @@
 import React from "react";
 import {
-  LineChart,
-  Line,
+  AreaChart,
+  Area,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   Legend,
-  AreaChart,
-  Area,
   ResponsiveContainer,
 } from "recharts";
 
@@ -27,39 +25,39 @@ const data = [
 
 const MarketingStatsSection = () => {
   return (
-    <section className=" max-w-7xl mx-auto py-16 px-6 lg:px-20">
+    <section className="max-w-7xl mx-auto py-16 px-6 lg:px-20">
       <div className="grid lg:grid-cols-2 gap-10 items-center">
         <div>
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            Start Improve Your Marketing Today
+            Enhancing Pharmaceutical Outcomes with Rehmat Pharma
           </h2>
           <p className="text-gray-600 mb-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-            pellentesque mauris id lectus volutpat eleifend. Pellentesque
-            tristique pharetra ex, et pharetra tellus ornare vel. In mollis
-            sapien in metus mattis feugiat.
+            At Rehmat Pharma, our mission is to improve healthcare through
+            innovation and efficiency. Our consistent growth in production,
+            research, and distribution reflects our commitment to quality and
+            patient satisfaction.
           </p>
 
           <h4 className="font-semibold text-lg text-gray-800 mb-4">
-            Some of Our Results Chart
+            Key Performance Metrics
           </h4>
 
           <div className="flex gap-10 mt-4">
             <div className="flex items-center gap-4">
-              <div className="text-4xl text-gray-400">📈</div>
+              <div className="text-4xl text-gray-400">🧪</div>
               <div>
                 <p className="text-xl font-bold text-sky-700">400%</p>
                 <p className="text-sm text-gray-500 font-medium uppercase">
-                  Production Stats
+                  Lab Output Growth
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <div className="text-4xl text-gray-400">📊</div>
+              <div className="text-4xl text-gray-400">📦</div>
               <div>
                 <p className="text-xl font-bold text-sky-700">160%</p>
                 <p className="text-sm text-gray-500 font-medium uppercase">
-                  Traffic Stats
+                  Distribution Increase
                 </p>
               </div>
             </div>

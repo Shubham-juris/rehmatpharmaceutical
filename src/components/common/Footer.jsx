@@ -1,67 +1,77 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logo/logo.jpg"
+import logo from "../../assets/logo/logo.jpg";
 
 const Footer = () => {
   return (
     <footer className="bg-[#1f1f2e] text-white mt-12">
+      {/* Top Banner */}
       <div className="bg-sky-600 py-6 text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold">Rehmat pharma - Business, Laboratory & Pharmaceutical asad</h2>
-        <button className="mt-4 border border-white text-white px-6 py-2 hover:bg-white hover:text-[#7eb9e9] transition duration-300">
-          PURCHASE NOW
-        </button>
+        <h2 className="text-2xl md:text-3xl font-semibold">
+          Rehmat Pharma - Business, Laboratory & Pharmaceutical Solutions
+        </h2>
       </div>
 
+      {/* Footer Content */}
       <div className="max-w-7xl mx-auto px-4 py-10 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+        {/* Brand Info */}
         <div>
           <div className="flex items-center space-x-2 mb-4">
-            <img src={logo} alt="" className="w-8 h-8" />
-            <span className="text-2xl  font-bold">Rehmat Pharma</span>
+            <img src={logo} alt="Rehmat Pharma Logo" className="w-8 h-8" />
+            <span className="text-2xl font-bold">Rehmat Pharma</span>
           </div>
           <p className="text-gray-300">
-            pharma is a creative & powerful medical and laboratory WordPress theme that suits all your business needs.
+            Rehmat Pharma is a creative & powerful medical and laboratory brand that fulfills all your healthcare business needs.
           </p>
         </div>
 
+        {/* Navbar Links */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
+          <h4 className="text-lg font-semibold mb-4">Navigation</h4>
           <ul className="space-y-2 text-gray-400">
-            <li><Link to="#">Life Insurance</Link></li>
-            <li><Link to="#">Home Insurance</Link></li>
-            <li><Link to="#">Child Insurance</Link></li>
-            <li><Link to="#">Family Health Plan</Link></li>
-            <li><Link to="#">Company Insurance</Link></li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/aboutUs">About Us</Link></li>
+            <li><Link to="/service">Our Services</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
           </ul>
         </div>
 
+        {/* Extra Nav or Duplicate Section */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Useful Links</h4>
+          <h4 className="text-lg font-semibold mb-4">Explore</h4>
           <ul className="space-y-2 text-gray-400">
-            <li><Link to="#">Life Insurance</Link></li>
-            <li><Link to="#">Home Insurance</Link></li>
-            <li><Link to="#">Child Insurance</Link></li>
-            <li><Link to="#">Family Health Plan</Link></li>
-            <li><Link to="#">Company Insurance</Link></li>
+            <li><Link to="/">Our Team</Link></li>
+            <li><Link to="/">Awards</Link></li>
+            <li><Link to="/">Careers</Link></li>
+            <li><Link to="/">FAQs</Link></li>
+            <li><Link to="/">Privacy Policy</Link></li>
           </ul>
         </div>
 
+        {/* Posts */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Rehmat Pharma Posts</h4>
+          <h4 className="text-lg font-semibold mb-4">Recent Posts</h4>
           <div className="space-y-4 text-gray-400 text-sm">
             <div>
-              <p className="font-medium text-white">Exploring Anatomy & Physiology in the Laboratory</p>
+              <p className="font-medium text-white">
+                Exploring Anatomy & Physiology in the Laboratory
+              </p>
               <p className="text-xs">🕒 August 4, 2016</p>
             </div>
             <div>
-              <p className="font-medium text-white">Medicine Diagnosis of Disease in Clinical Laboratory</p>
+              <p className="font-medium text-white">
+                Medicine Diagnosis of Disease in Clinical Laboratory
+              </p>
               <p className="text-xs">🕒 August 4, 2016</p>
             </div>
           </div>
         </div>
       </div>
 
+      {/* Bottom Bar */}
       <div className="bg-[#151524] text-center py-4 text-sky-500 text-sm">
-        © Copyright 2025 Pharma. All Right Reserved. Designed by <span className="text-white font-medium">Rehmat Pharma</span>
+        © 2025 Rehmat Pharma. All Rights Reserved. Designed by{" "}
+        <span className="text-white font-medium">Rehmat Pharma</span>
       </div>
     </footer>
   );
