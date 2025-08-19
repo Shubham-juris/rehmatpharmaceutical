@@ -80,9 +80,7 @@ const ContactPage = () => {
               Send Message
             </button>
           </form>
-          <p className="mt-6 text-xs text-center text-white/80">
-            Designed by Rehmat Pharma © {new Date().getFullYear()}
-          </p>
+          
         </div>
       </div>
     </div>
