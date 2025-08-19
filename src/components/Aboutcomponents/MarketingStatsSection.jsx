@@ -25,13 +25,14 @@ const data = [
 
 const MarketingStatsSection = () => {
   return (
-    <section className="max-w-7xl mx-auto py-16 px-6 lg:px-20">
-      <div className="grid lg:grid-cols-2 gap-10 items-center">
+    <section className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+        {/* Left Text Section */}
         <div>
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+          <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">
             Enhancing Pharmaceutical Outcomes with Rehmat Pharma
           </h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-6 text-base md:text-lg leading-relaxed">
             At Rehmat Pharma, our mission is to improve healthcare through
             innovation and efficiency. Our consistent growth in production,
             research, and distribution reflects our commitment to quality and
@@ -42,7 +43,7 @@ const MarketingStatsSection = () => {
             Key Performance Metrics
           </h4>
 
-          <div className="flex gap-10 mt-4">
+          <div className="flex flex-col sm:flex-row gap-6 mt-4">
             <div className="flex items-center gap-4">
               <div className="text-4xl text-gray-400">🧪</div>
               <div>
@@ -64,7 +65,8 @@ const MarketingStatsSection = () => {
           </div>
         </div>
 
-        <div className="w-full h-80">
+        {/* Right Chart Section */}
+        <div className="w-full h-64 sm:h-80 lg:h-96">
           <ResponsiveContainer width="100%" height="100%">
             <AreaChart data={data}>
               <defs>

@@ -9,7 +9,7 @@ const HomeHero = () => {
     >
       <div className="absolute inset-0 bg-black opacity-60 z-10"></div>
 
-      <div className="relative z-20 text-white text-center px-4 py-8 max-w-2xl">
+      <div className="relative z-20 text-white text-center px-4 py-8 max-w-2xl mt-15">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           Trusted Pharmaceutical Solutions
         </h1>
