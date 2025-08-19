@@ -87,8 +87,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="bg-[#151524] text-center py-4 text-sky-500 text-sm">
-        © {new Date().getFullYear()} Rehmat Pharma. All Rights Reserved. Designed by{" "}
-        <span className="text-white font-medium">Rehmat Pharma</span>
+        © {new Date().getFullYear()} Rehmat Pharma. All Rights Reserved. 
       </div>
     </footer>
   );
