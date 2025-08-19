@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo/logo.jpg";
+import { HiOutlinePhone, HiOutlineLocationMarker } from "react-icons/hi";
 
 const Footer = () => {
   return (
@@ -36,7 +37,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Extra Nav or Duplicate Section */}
+        {/* Explore Links */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Explore</h4>
           <ul className="space-y-2 text-gray-400">
@@ -48,22 +49,29 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Posts */}
+        {/* Contact Info */}
         <div>
-          <h4 className="text-lg font-semibold mb-4">Recent Posts</h4>
-          <div className="space-y-4 text-gray-400 text-sm">
-            <div>
-              <p className="font-medium text-white">
-                Exploring Anatomy & Physiology in the Laboratory
-              </p>
-              <p className="text-xs">🕒 August 4, 2016</p>
-            </div>
-            <div>
-              <p className="font-medium text-white">
-                Medicine Diagnosis of Disease in Clinical Laboratory
-              </p>
-              <p className="text-xs">🕒 August 4, 2016</p>
-            </div>
+          <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
+          <div className="space-y-3 text-gray-300">
+            {/* Address */}
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=Genralsgatan+31A+60226+Norrköping+Sweden"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-start gap-2 hover:text-sky-400"
+            >
+              <HiOutlineLocationMarker size={20} className="mt-1" />
+              <span>Genralsgatan 31A, 60226 Norrköping, Sweden</span>
+            </a>
+
+            {/* Phone */}
+            <a
+              href="tel:+46111234567"
+              className="flex items-center gap-2 hover:text-sky-400"
+            >
+              <HiOutlinePhone size={20} />
+              <span>+46 11 123 4567</span>
+            </a>
           </div>
         </div>
       </div>

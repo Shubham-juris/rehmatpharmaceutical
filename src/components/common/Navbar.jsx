@@ -1,33 +1,41 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo/logo.jpg";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const navLinkClasses = ({ isActive }) =>
+    `font-medium ${
+      isActive ? "text-sky-500 border-b-2 border-sky-500" : "text-gray-700 hover:text-sky-500"
+    }`;
+
   return (
     <nav className="bg-white shadow-md fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
+        {/* Logo */}
+        <NavLink to="/" className="flex items-center space-x-2">
           <img src={logo} alt="Logo" className="w-18 h-18" />
           <span className="font-bold text-sky-500">RehmatPharma</span>
-        </Link>
+        </NavLink>
 
+        {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="text-gray-700 hover:text-sky-500 font-medium">
+          <NavLink to="/" className={navLinkClasses} end>
             Home
-          </Link>
-          <Link to="/aboutUs" className="text-gray-700 hover:text-sky-500 font-medium">
+          </NavLink>
+          <NavLink to="/aboutUs" className={navLinkClasses}>
             About Us
-          </Link>
-          <Link to="/service" className="text-gray-700 hover:text-sky-500 font-medium">
+          </NavLink>
+          <NavLink to="/service" className={navLinkClasses}>
             Our Services
-          </Link>
-          <Link to="/contact" className="text-gray-700 hover:text-sky-500 font-medium">
+          </NavLink>
+          <NavLink to="/contact" className={navLinkClasses}>
             Contact Us
-          </Link>
+          </NavLink>
         </div>
 
+        {/* Mobile Hamburger */}
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -50,36 +58,38 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden px-4 pb-4">
-          <Link
+        <div className="md:hidden px-4 pb-4 space-y-2">
+          <NavLink
             to="/"
+            end
             onClick={() => setIsOpen(false)}
-            className="block py-1 text-gray-700 hover:text-sky-500"
+            className={navLinkClasses}
           >
             Home
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/aboutUs"
             onClick={() => setIsOpen(false)}
-            className="block py-1 text-gray-700 hover:text-sky-500"
+            className={navLinkClasses}
           >
             About Us
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/service"
             onClick={() => setIsOpen(false)}
-            className="block py-1 text-gray-700 hover:text-sky-500"
+            className={navLinkClasses}
           >
             Our Services
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/contact"
             onClick={() => setIsOpen(false)}
-            className="block py-1 text-gray-700 hover:text-sky-500"
+            className={navLinkClasses}
           >
             Contact Us
-          </Link>
+          </NavLink>
         </div>
       )}
     </nav>

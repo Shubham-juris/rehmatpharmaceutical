@@ -4,10 +4,12 @@ import Homepage from '../pages/Homepage/Homepage';
 import AboutUsPage from '../pages/Aboutuspage/AboutUsPage';
 import ServicePage from '../pages/Service/ServicePage';
 import ContactUsPage from "../pages/ContactUS/ContactUsPage";
+import ScrollToTop from '../components/toptoscroll/Toptoscroll';
 
 const Router = () => {
   return (
     <>
+    <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Homepage/>}/>
         <Route path='/aboutUs' element={<AboutUsPage/>}/>

@@ -16,25 +16,30 @@ const ContactPage = () => {
         </p>
         <hr className="my-4" />
 
+        {/* Address */}
         <div className="flex items-start mb-4">
           <span className="text-orange-500 text-2xl mr-3">📍</span>
           <div>
             <p className="font-semibold">Address:</p>
-            <p>Rehmat Pharma, New Sunny Enclave, Kharar, Punjab</p>
+            <a
+              href="https://www.google.com/maps?q=Genralsgatan+31A,+60226+Norrköping,+Sweden"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-black hover:underline"
+            >
+              Genralsgatan 31A, 60226 Norrköping, Sweden
+            </a>
           </div>
         </div>
+
+        {/* Phone */}
         <div className="flex items-start mb-4">
           <span className="text-orange-500 text-2xl mr-3">📞</span>
           <div>
             <p className="font-semibold">Phone:</p>
-            <p>+91 98765 43210</p>
-          </div>
-        </div>
-        <div className="flex items-start mb-2">
-          <span className="text-orange-500 text-2xl mr-3">✉️</span>
-          <div>
-            <p className="font-semibold">Email:</p>
-            <p>info@rehmatpharma.com</p>
+            <a href="tel:+46111234567" className="text-black hover:underline">
+              +46 11 123 4567
+            </a>
           </div>
         </div>
       </div>

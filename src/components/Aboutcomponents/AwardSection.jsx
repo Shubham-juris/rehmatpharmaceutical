@@ -10,7 +10,6 @@ const AwardSection = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 text-center md:text-left">
           <div>
-            <h3 className="text-2xl sm:text-3xl font-bold">2016.</h3>
             <h4 className="text-sm font-semibold uppercase mt-1 mb-2">
               Excellence in Diagnostic Services
             </h4>
@@ -21,7 +20,6 @@ const AwardSection = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl sm:text-3xl font-bold">2016.</h3>
             <h4 className="text-sm font-semibold uppercase mt-1 mb-2">
               Best Pharma Innovation Award
             </h4>
@@ -32,7 +30,6 @@ const AwardSection = () => {
           </div>
 
           <div>
-            <h3 className="text-2xl sm:text-3xl font-bold">2016.</h3>
             <h4 className="text-sm font-semibold uppercase mt-1 mb-2">
               Fastest Growing Healthcare Company
             </h4>
