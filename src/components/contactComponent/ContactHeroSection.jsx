@@ -37,8 +37,8 @@ const ContactPage = () => {
           <span className="text-orange-500 text-2xl mr-3">📞</span>
           <div>
             <p className="font-semibold">Phone:</p>
-            <a href="tel:+46111234567" className="text-black hover:underline">
-              +46 11 123 4567
+            <a href="tel:46723271009" className="text-black hover:underline">
+             +46 72 327 1009
             </a>
           </div>
         </div>
