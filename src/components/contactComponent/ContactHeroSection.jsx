@@ -1,4 +1,5 @@
 import React from "react";
+import { HiOutlineLocationMarker } from "react-icons/hi";
 
 const ContactPage = () => {
   return (
@@ -10,12 +11,13 @@ const ContactPage = () => {
             Contact Rehmat Pharma
           </h2>
           <p className="text-gray-700 mb-4">
-            Whether you're looking for product inquiries, business collaborations, or support, 
-            Rehmat Pharma is here to help. We value your trust and strive to deliver excellence 
-            in every interaction.
+            Whether you're looking for product inquiries, business
+            collaborations, or support, Rehmat Pharma is here to help. We value
+            your trust and strive to deliver excellence in every interaction.
           </p>
           <p className="text-gray-600 mb-4">
-            Use the form to contact us or reach us directly at the details below.
+            Use the form to contact us or reach us directly at the details
+            below.
           </p>
           <hr className="my-4" />
 
@@ -25,12 +27,15 @@ const ContactPage = () => {
             <div>
               <p className="font-semibold">Address:</p>
               <a
-                href="https://www.google.com/maps?q=Genralsgatan+31A,+60226+Norrköping,+Sweden"
+                href="https://www.google.com/maps/search/?api=1&query=42+Boltons+Lane+Hayes+UB3+5BH+West+London+England"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-black hover:underline"
+                className="flex items-start gap-3 hover:text-sky-400 mt-2"
               >
-                Genralsgatan 31A, 60226 Norrköping, Sweden
+                <HiOutlineLocationMarker size={20} className="mt-0.5" />
+                <span>
+                  42 Boltons Lane, Hayes, UB3 5BH, West London, England
+                </span>
               </a>
             </div>
           </div>
@@ -80,7 +85,6 @@ const ContactPage = () => {
               Send Message
             </button>
           </form>
-          
         </div>
       </div>
     </div>
